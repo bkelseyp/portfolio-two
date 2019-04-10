@@ -1,0 +1,12 @@
+#paraBox{
+    height: 60%;
+}
+#resHeader {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.infoBold{
+    font-weight: bold;
+}

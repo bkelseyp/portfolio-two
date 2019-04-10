@@ -1,0 +1,31 @@
+#sectionTop{
+    margin-top: 45px;
+    padding-bottom: 0px;
+}
+
+#greyBox{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+}
+.valign-wrapperA {
+    margin-top: 0px;
+ 
+}
+.bio{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.bioStrong {
+    font-weight: 900;
+}
+
+ul a {
+    padding-bottom: 30px;
+    color: #303f9f;
+}
+ul a:hover {
+    color:#f68b28;
+}

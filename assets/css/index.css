@@ -1,0 +1,76 @@
+#introHeader{
+    font-family: 'Crete Round', serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    line-height: 60px;
+
+}
+.specialFont {
+    font-style: italic;
+ 
+}
+
+#logoImg {
+    padding-top: 14px;
+   max-height: 53px;
+}
+
+nav ul a {
+    color: #303f9f;
+}
+nav ul a:hover {
+    color: #f68b28;
+}
+
+
+#myImage{
+    height: 175px;
+    width: 175px;
+    margin-left: 100px;
+    margin-top: 27px;
+
+    margin-right: 20px;
+
+}
+#headerImg{
+    height: 800px;
+}
+.containerNav {
+
+  width: 95%;
+}
+
+.sidenav-trigger {
+    color: #f68b28;
+}
+  
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+      width: 100%;
+}
+  
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      position: absolute;
+      top: 40%;
+    }
+    #index-banner .section {
+      top: 10%;
+    }
+}
+  
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+      top: 0;
+    }
+}
+
+#imagePadding {
+    padding-left: 15px;
+    padding-right: 14px;
+}

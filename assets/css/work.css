@@ -1,0 +1,27 @@
+.projectImg{
+    padding-top: 12px;
+}
+.projectLinks {
+    float: left;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ul a {
+    padding-bottom: 30px;
+    color: #303f9f;
+}
+ul a:hover {
+    color:#f68b28;
+}
+/* isn't this supposed to override the materialize css*/
+.projectBox{
+    margin-right: 0px;
+    padding-bottom: 10px;
+}
+
+.projectTitle{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+   
+}
