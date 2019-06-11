@@ -1,3 +1,6 @@
+.headerImg {
+    background-color: #303f9f;
+}
 #paraBox{
     height: 60%;
 }
@@ -9,4 +12,106 @@
 
 .infoBold{
     font-weight: bold;
+}
+
+.resInfo {
+    
+        font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        line-height: 27px;
+        padding-top: 15px;
+        color: #303f9f;
+        text-align: justify;
+    
+}
+.wordsUL li {
+
+    font-family: 'Raleway', sans-serif;
+        font-weight: 400;
+        line-height: 27px;
+        padding-top: 15px;
+        color: #303f9f;
+}
+
+
+img.animated-gif{
+  
+    margin-top: 25px;
+
+    margin-bottom: 30px;
+    width: 770px;
+    height: auto;
+  }
+
+  .bkgndWidth {
+  
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width : 895px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 700px;
+        height: auto;
+      }
+}
+
+
+@media only screen and (max-width : 800px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 600px;
+        height: auto;
+      }
+}
+  
+@media only screen and (max-width : 700px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 500px;
+        height: auto;
+      }
+}
+
+@media only screen and (max-width : 550px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 450px;
+        height: auto;
+      }
+}
+
+@media only screen and (max-width : 550px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 400px;
+        height: auto;
+      }
+}
+
+
+@media only screen and (max-width : 400px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 350px;
+        height: auto;
+      }
 }

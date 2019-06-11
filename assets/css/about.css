@@ -1,11 +1,99 @@
+/* code from the aboutindex page */
+
+#introHeader{
+    font-family: 'Crete Round', serif;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    line-height: 60px;
+    color: #303f9f;
+
+}
+#logoImg {
+    padding-top: 14px;
+   max-height: 53px;
+}
+
+nav ul a {
+    color: #303f9f;
+}
+nav ul a:hover {
+    color: #f68b28;
+}
+
+.specialFont {
+    font-style: italic;
+ 
+}
+
+#myImage{
+    height: 175px;
+    width: 175px;
+    margin-left: 100px;
+    margin-top: 27px;
+
+    margin-right: 20px;
+
+}
+#headerImg{
+    height: 800px;
+}
+.containerNav {
+
+  width: 95%;
+}
+
+.sidenav-trigger {
+    color: #f68b28;
+}
+  
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255,255,255,.9);
+}
+.parallax-container .section {
+      width: 100%;
+}
+  
+
+#imagePadding {
+    padding-left: 15px;
+    padding-right: 14px;
+}
+
+
+/* code for the about page */
+/* ul li {
+text-transform: uppercase;
+font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: #303f9f;
+
+} */
+
+img.animated-gif{
+    margin-top: 50px;
+
+    margin-bottom: 20px;
+    width: 770px;
+    height: auto;
+  }
+
+  .bkgndWidth {
+    margin-bottom: 150px;
+}
+
+
 #sectionTop{
     margin-top: 45px;
     padding-bottom: 0px;
 }
 
 #greyBox{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     margin-bottom: 0px;
 }
 .valign-wrapperA {
@@ -16,10 +104,20 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     line-height: 27px;
-    margin-bottom: 25px;
+    padding-bottom: 25px;
+    padding-top: 45px;
+    color: #303f9f;
+    text-align: justify;
 }
 .bioStrong {
     font-weight: 900;
+}
+.nameStrong {
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 17px;
+    color:#f68b28;
 }
 
 ul a {
@@ -28,4 +126,104 @@ ul a {
 }
 ul a:hover {
     color:#f68b28;
+}
+.fullBkgnd {
+    background-color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.contactMe {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    color: #303f9f;
+
+}
+
+@media only screen and (max-width : 992px) {
+    .parallax-container .section {
+      position: absolute;
+      top: 40%;
+    }
+    #index-banner .section {
+      top: 10%;
+    }
+}
+  
+
+
+@media only screen and (max-width : 895px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 700px;
+        height: auto;
+      }
+}
+
+
+@media only screen and (max-width : 800px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 600px;
+        height: auto;
+      }
+}
+  
+@media only screen and (max-width : 700px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 500px;
+        height: auto;
+      }
+}
+
+@media only screen and (max-width : 600px) {
+    #index-banner .section {
+      top: 0;
+    }
+}
+
+@media only screen and (max-width : 550px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 450px;
+        height: auto;
+      }
+}
+
+@media only screen and (max-width : 550px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 400px;
+        height: auto;
+      }
+}
+
+
+@media only screen and (max-width : 400px) {
+    img.animated-gif{
+  
+        margin-top: 25px;
+    
+        margin-bottom: 30px;
+        width: 350px;
+        height: auto;
+      }
 }

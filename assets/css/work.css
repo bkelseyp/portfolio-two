@@ -25,3 +25,151 @@ ul a:hover {
     font-weight: 700;
    
 }
+
+.proj-animated-gif{
+    margin-top: 100px;
+
+    margin-bottom: 50px;
+    width: 770px;
+    height: auto;
+
+}
+
+.DescriLinks {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+.DescriTitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+    color: black;
+}
+
+
+.DescriBody{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: justify;
+}
+.breakSpace {
+    height: 100px;
+}
+
+/* New Projects layout below */
+
+.projTitle {
+    color: #303f9f;
+    font-family: 'Raleway', sans-serif;
+    font-size:  17px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.projLinks {
+    margin-top: 0;
+    text-decoration-style: none;
+}
+
+
+.projLinks li {
+    font-family: 'Raleway', sans-serif;
+    text-decoration-style: none;
+    float: left;
+
+}
+.clearfloat {
+    float: none;
+}
+.projDescription {
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+    float: none;
+}
+.fullColor {
+    background-color: #f68b28;
+    height: 250px;
+    padding-top: 90px;
+    margin-bottom: 90px;
+}
+.pageSection {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* margin-bottom: 10px; */
+    text-align: center;
+
+}
+@media only screen and (max-width : 1170px) {
+    .designWrkImgs {
+        margin-right: 200px;
+    }
+}
+
+
+@media only screen and (max-width : 1020px) {
+    .imgHolder {
+        padding-right: 20px;
+    }
+    .imgSizeWrk {
+        height: 300px;
+    }
+  
+}
+
+
+@media only screen and (max-width : 830px) {
+    .imgHolder {
+        padding-right: 40px;
+  
+    }
+}
+
+@media only screen and (max-width : 725px) {
+    .imgHolder {
+       
+    }
+    .imgSizeWrk {
+        height: 290px;
+    }
+}
+@media only screen and (max-width : 670px) {
+    .imgSizeWrk {
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width : 560px) {
+    .imgSizeWrk {
+        height: 230px;
+    }
+}
+@media only screen and (max-width : 500px) {
+    .imgSizeWrk {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width : 450px) {
+    .imgSizeWrk {
+        height: 190px;
+    }
+}
+
+@media only screen and (max-width : 415px) {
+    .imgSizeWrk {
+        height: 170px;
+
+    }
+    
+    .designWrkImgs {
+        padding-bottom: 200px;
+    }
+}
